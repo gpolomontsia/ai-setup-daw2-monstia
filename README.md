@@ -2,8 +2,6 @@
 
 Kit for starting a project with a coding agent (Cursor, Claude Code, Codex, OpenCode, Gemini CLI, GitHub Copilot). There is no application here. There is a project-file template and a reviewed, commit-pinned catalog of skills.
 
-Four header options are below. Each one is an SVG in `assets/`. Say which number to keep.
-
 <p align="center">
   <img src="assets/02-terminal.svg" width="720" alt="A terminal session where an agent pins rules, skills and languages.">
 </p>
