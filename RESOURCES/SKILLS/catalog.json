@@ -1,0 +1,185 @@
+{
+  "cli": "skills@1.7.0",
+  "agents": ["cursor", "claude-code", "codex", "opencode", "github-copilot", "gemini-cli"],
+  "stacks": {
+    "web": {
+      "deps": ["react", "next", "vue", "nuxt", "svelte", "@sveltejs/kit", "astro", "solid-js", "@angular/core", "vite"],
+      "files": ["index.html"]
+    },
+    "react": { "deps": ["react", "next"] },
+    "vue": { "deps": ["vue", "nuxt"] },
+    "vue-router": { "deps": ["vue-router"] },
+    "pinia": { "deps": ["pinia", "@pinia/nuxt"] },
+    "nuxt": { "deps": ["nuxt"] },
+    "vite": { "deps": ["vite"] },
+    "vitest": { "deps": ["vitest"] },
+    "astro": { "deps": ["astro"] },
+    "supabase": {
+      "deps": ["@supabase/supabase-js", "@supabase/ssr"],
+      "files": ["supabase/config.toml"]
+    },
+    "playwright": { "deps": ["@playwright/test"] }
+  },
+  "skills": [
+    {
+      "name": "grill-me",
+      "source": "mattpocock/skills",
+      "stack": "base",
+      "trust": "well-known author (Matt Pocock)",
+      "purpose": "The /grill-me command; it only delegates to the grilling skill.",
+      "ref": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "hash": "9cdbb4b8f7a3aeaef82e6230c9e823500d4a8a1214c726cf342cf9829d34fc7d",
+      "path": "skills/productivity/grill-me"
+    },
+    {
+      "name": "grilling",
+      "source": "mattpocock/skills",
+      "stack": "base",
+      "trust": "well-known author (Matt Pocock)",
+      "purpose": "Interview the user and settle the plan before writing code.",
+      "ref": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "hash": "4dd886b0196bf43729d954ae326016f2bd9f5f79d892500b407c33a753362f14",
+      "path": "skills/productivity/grilling"
+    },
+    {
+      "name": "frontend-design",
+      "source": "anthropics/skills",
+      "stack": "web",
+      "trust": "official (Anthropic)",
+      "purpose": "Visual direction, typography and interface design.",
+      "ref": "33375500bcea98d610eb30ce10ac4e59b89c390d",
+      "hash": "89496d5dd00f4810205f351759594fc2742bf8eea85a2f2b2d1de59f4bd91576",
+      "path": "skills/frontend-design"
+    },
+    {
+      "name": "web-design-guidelines",
+      "source": "vercel-labs/agent-skills",
+      "stack": "web",
+      "trust": "official (Vercel)",
+      "purpose": "UI review: accessibility, UX and interface best practices.",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "hash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a",
+      "path": "skills/web-design-guidelines"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "source": "vercel-labs/agent-skills",
+      "stack": "react",
+      "trust": "official (Vercel, authors of Next.js)",
+      "purpose": "React and Next.js performance and patterns.",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "hash": "3219a1944e404ffc14d1d9d6aef6dd2e3855b81387ee0a044ccbfe14d34c2357",
+      "path": "skills/react-best-practices"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "source": "vercel-labs/agent-skills",
+      "stack": "react",
+      "trust": "official (Vercel)",
+      "purpose": "Designing reusable React components.",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "hash": "f98931159fa9c7fed043bcd18a891a46dcf89ababa38df13a4c5b7b30dc0ce07",
+      "path": "skills/composition-patterns"
+    },
+    {
+      "name": "vue-best-practices",
+      "source": "vuejs-ai/skills",
+      "stack": "vue",
+      "trust": "community (not the official vuejs organization)",
+      "purpose": "Vue 3 and Composition API best practices.",
+      "ref": "c9d355ff23f654309dd02006be671859df0a134c",
+      "hash": "3df585ad31aec78fe55c56c1411262737e6b231677a3153dec512a882fde80cd",
+      "path": "skills/vue-best-practices"
+    },
+    {
+      "name": "vue-router-best-practices",
+      "source": "vuejs-ai/skills",
+      "stack": "vue-router",
+      "trust": "community (not the official vuejs organization)",
+      "purpose": "Vue Router 4 guards, params and pitfalls.",
+      "ref": "c9d355ff23f654309dd02006be671859df0a134c",
+      "hash": "f0745ed318c113e592ab4a9ded57ceadd0db2edab00cdb46b216c83f5ce0799e",
+      "path": "skills/vue-router-best-practices"
+    },
+    {
+      "name": "pinia",
+      "source": "antfu/skills",
+      "stack": "pinia",
+      "trust": "maintainer (Anthony Fu, Vue/Vite/Nuxt core team)",
+      "purpose": "Pinia stores, generated from the official docs.",
+      "ref": "e98e476e315f068f72d53bd3afb34fdd4d5851c3",
+      "hash": "897b6b0982956f41f5cc85128ca638b625e1b3c8bc619e303cd1e7661c95b7de",
+      "path": "skills/pinia"
+    },
+    {
+      "name": "nuxt",
+      "source": "antfu/skills",
+      "stack": "nuxt",
+      "trust": "maintainer (Anthony Fu, Vue/Vite/Nuxt core team)",
+      "purpose": "Nuxt, generated from the official docs.",
+      "ref": "e98e476e315f068f72d53bd3afb34fdd4d5851c3",
+      "hash": "96dbdbfc06bf7045aeb9a463b972d5c0b5679d6dadf196d8ef6b98dc6defed2d",
+      "path": "skills/nuxt"
+    },
+    {
+      "name": "vite",
+      "source": "antfu/skills",
+      "stack": "vite",
+      "trust": "maintainer (Anthony Fu, Vue/Vite/Nuxt core team)",
+      "purpose": "Vite configuration and plugins.",
+      "ref": "e98e476e315f068f72d53bd3afb34fdd4d5851c3",
+      "hash": "867ff66238f3152e9c494339ad08dc432dd0df5bcf5cc7a00b61a72b580eb908",
+      "path": "skills/vite"
+    },
+    {
+      "name": "vitest",
+      "source": "antfu/skills",
+      "stack": "vitest",
+      "trust": "maintainer (Anthony Fu, Vue/Vite/Nuxt core team)",
+      "purpose": "Testing with Vitest.",
+      "ref": "e98e476e315f068f72d53bd3afb34fdd4d5851c3",
+      "hash": "943d436114c677802426741980146c07560bf375297666b03062444f4b98a785",
+      "path": "skills/vitest"
+    },
+    {
+      "name": "astro",
+      "source": "astrolicious/agent-skills",
+      "stack": "astro",
+      "trust": "community (Astro ecosystem maintainers)",
+      "purpose": "Astro components, content collections and adapters.",
+      "ref": "cb4839f3794189ebf35c55d3ba5d3876dff7acf0",
+      "hash": "ebefe26b231d32379c14e41a46c2de7b4b0184543bedab7febdabe4fb21fba4e",
+      "path": "skills/astro"
+    },
+    {
+      "name": "supabase",
+      "source": "supabase/agent-skills",
+      "stack": "supabase",
+      "trust": "official (Supabase)",
+      "purpose": "Supabase Auth, Storage, RLS and client.",
+      "ref": "551274ed2fe97c8fea1325f7ceb05803a542f8df",
+      "hash": "bcbf1c542906f109e9dc3457c389a9cc85854eb90fa6b5cba2e5c131140305e1",
+      "path": "skills/supabase"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "source": "supabase/agent-skills",
+      "stack": "supabase",
+      "trust": "official (Supabase)",
+      "purpose": "Postgres schemas, indexes and queries.",
+      "ref": "551274ed2fe97c8fea1325f7ceb05803a542f8df",
+      "hash": "e14e276241805c97dbcfe40dcbea1a3035269cc7293cac4b1832dda41a835e60",
+      "path": "skills/supabase-postgres-best-practices"
+    },
+    {
+      "name": "webapp-testing",
+      "source": "anthropics/skills",
+      "stack": "playwright",
+      "trust": "official (Anthropic)",
+      "purpose": "Test the local app with Playwright and screenshots.",
+      "ref": "33375500bcea98d610eb30ce10ac4e59b89c390d",
+      "hash": "ad5b1fc52807e9afa4635e59218a026b164dc58b6c3f41b0f7c644dcd6ccf572",
+      "path": "skills/webapp-testing"
+    }
+  ]
+}

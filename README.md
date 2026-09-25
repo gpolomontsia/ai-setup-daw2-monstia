@@ -1,1 +1,0 @@
-Ni se vos ocurrixque fer commits a main
