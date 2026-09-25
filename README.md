@@ -5,23 +5,8 @@ Kit for starting a project with a coding agent (Cursor, Claude Code, Codex, Open
 Four header options are below. Each one is an SVG in `assets/`. Say which number to keep.
 
 <p align="center">
-  <strong>1 · Copper</strong><br>
-  <img src="assets/01-copper.svg" width="720" alt="A copper line draws in, then RULES, SKILLS and LANGUAGES lock in as pinned.">
-</p>
-
-<p align="center">
   <strong>2 · Terminal</strong><br>
   <img src="assets/02-terminal.svg" width="720" alt="A terminal session where an agent pins rules, skills and languages.">
-</p>
-
-<p align="center">
-  <strong>3 · Cards</strong><br>
-  <img src="assets/03-cards.svg" width="720" alt="Three index cards, RULES, SKILLS and LANGUAGES, each getting a pin.">
-</p>
-
-<p align="center">
-  <strong>4 · Lanes</strong><br>
-  <img src="assets/04-lanes.svg" width="720" alt="English and Catalan lanes filling in side by side.">
 </p>
 
 <p align="center">
