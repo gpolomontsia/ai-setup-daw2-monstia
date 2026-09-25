@@ -24,7 +24,7 @@ but only from a reviewed list and pinned to a specific commit.
 ## Using it in a project
 
 ```bash
-S=~/Projects/ai-setup/skills/skills.mjs
+S=~/Projects/ai-setup-daw2-monstia/RESOURCES/SKILLS/skills.mjs
 
 node $S detect                   # which stack it sees and what it would install
 node $S install                  # installs base + detected stack (asks for confirmation)

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-label="Three index cards, RULES, SKILLS and LANGUAGES, each getting a pin">
+  <rect width="720" height="220" fill="#e7e1d6"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.16;1" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="48" y="48" width="190" height="124" rx="4" fill="#f7f3ea" stroke="#2c2824"/>
+      <text x="68" y="92" fill="#2c2824" font-size="18" letter-spacing="2">RULES</text>
+      <text x="68" y="124" fill="#6b645c" font-size="12">one agreement</text>
+      <circle cx="214" cy="64" r="7" fill="#c45c26"/>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.44;1" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="264" y="48" width="190" height="124" rx="4" fill="#f7f3ea" stroke="#2c2824"/>
+      <text x="284" y="92" fill="#2c2824" font-size="18" letter-spacing="2">SKILLS</text>
+      <text x="284" y="124" fill="#6b645c" font-size="12">pinned commit</text>
+      <circle cx="430" cy="64" r="7" fill="#c45c26"/>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.52;0.68;1" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="480" y="48" width="190" height="124" rx="4" fill="#f7f3ea" stroke="#2c2824"/>
+      <text x="500" y="92" fill="#2c2824" font-size="18" letter-spacing="2">LANG</text>
+      <text x="500" y="124" fill="#6b645c" font-size="12">en · ca</text>
+      <circle cx="646" cy="64" r="7" fill="#c45c26"/>
+    </g>
+  </g>
+</svg>

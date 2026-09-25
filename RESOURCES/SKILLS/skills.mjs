@@ -129,7 +129,7 @@ async function install(options) {
   if (unpinned.length) {
     fail(
       `No reviewed commit in the catalog for: ${unpinned.map((s) => s.name).join(', ')}. ` +
-        'Run "update --write" in ai-setup first.',
+        'Run "update --write" from RESOURCES/SKILLS first.',
     );
   }
 

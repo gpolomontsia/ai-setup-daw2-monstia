@@ -3,7 +3,7 @@
 <!--
   Per-project template. Fill in everything marked <...> and delete what doesn't apply.
   Only include what an agent CAN'T work out by reading the repo. Generic rules
-  (git, style, basic security) live in global-rules.md.
+  (git, style, basic security) live in each person's own agent rules.
   Target: < 100 lines. Everything you add competes for the model's attention.
 -->
 
@@ -71,7 +71,7 @@ Only what isn't obvious from reading the code:
 ## Skills
 
 Installed in `.agents/skills/` and pinned in `skills-lock.json` with
-`node ~/Projects/ai-setup/skills/skills.mjs install`. Don't use `npx skills add`.
+`node ~/Projects/ai-setup-daw2-monstia/RESOURCES/SKILLS/skills.mjs install`. Don't use `npx skills add`.
 
 - New project or large feature without a settled plan: use the `grilling` skill before writing code (I trigger it with `/grill-me`).
 - Any UI work: follow `frontend-design` and, when done, review with `web-design-guidelines`.
