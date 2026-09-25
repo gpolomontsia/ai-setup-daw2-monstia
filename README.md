@@ -5,7 +5,6 @@ Kit for starting a project with a coding agent (Cursor, Claude Code, Codex, Open
 Four header options are below. Each one is an SVG in `assets/`. Say which number to keep.
 
 <p align="center">
-  <strong>2 · Terminal</strong><br>
   <img src="assets/02-terminal.svg" width="720" alt="A terminal session where an agent pins rules, skills and languages.">
 </p>
 
